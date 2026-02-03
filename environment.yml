@@ -1,0 +1,40 @@
+name: standard_repo
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.2.0
+  - torchvision=0.17.0
+  - torchaudio=2.2.0
+  - pytorch-cuda=12.1
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - scikit-learn
+  - jupyter
+  - ipython
+  - tqdm
+  - pyyaml
+  - pip
+  - pip:
+    - torch-geometric==2.5.1
+    - torch-sparse==0.6.18
+    - dgl==2.1.0
+    - rdkit==2023.9.5
+    - wandb
+    - easydict
+    - seaborn
+    - pillow
+    - imageio
+    - networkx
+    - gymnasium
+    - control
+    - pyemd
+    - einops
+    - termcolor
+    - h5py
+    - -e .
