@@ -1,6 +1,2 @@
-results/
-dataset/
-docs/
-wandb/
-standard_repo.egg-info/
-**/__pycache__/
+__pycache__/
+test.md
