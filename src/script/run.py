@@ -55,9 +55,9 @@ def median_sigmas(X, scales=(0.5, 1.0, 2.0, 4.0)):
     Z = X
     D2 = pairwise_sq_dists(Z, Z)
     tri = D2[~torch.eye(D2.size(0), dtype=bool, device=D2.device)]
-    m = torch.median(tri).clamp_min(1e-12)          # 中位数的“距离平方”
-    s2 = torch.tensor(scales, device=Z.device) * m   # 生成多尺度 σ^2
-    sigmas = torch.sqrt(s2)                          # 转回 σ
+    m = torch.median(tri).clamp_min(1e-12)          
+    s2 = torch.tensor(scales, device=Z.device) * m 
+    sigmas = torch.sqrt(s2)                
     return [float(s.item()) for s in sigmas]
 
 def mmd2_unbiased_multi_sigma(X, Y, sigmas):
@@ -75,7 +75,6 @@ def mmd2_unbiased_multi_sigma(X, Y, sigmas):
         Kyy = torch.exp(-beta * Dyy)
         Kxy = torch.exp(-beta * Dxy)
 
-        # 无偏（去对角）
         term_xx = (Kxx.sum() - Kxx.diag().sum()) / (m * (m - 1) + 1e-12)
         term_yy = (Kyy.sum() - Kyy.diag().sum()) / (n * (n - 1) + 1e-12)
         term_xy = Kxy.mean()  # / (m*n)
