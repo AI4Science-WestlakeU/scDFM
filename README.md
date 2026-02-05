@@ -32,10 +32,22 @@ conda env create -f environment.yml
 ```
 
 ##  ⏬ Dataset download
+
 Put dataset into data file:
 
 - [Norman](https://figshare.com/articles/dataset/Norman_et_al_2019_Science_labeled_Perturb-seq_data/24688110?utm_source=chatgpt.com&file=43390776)
 - [Combosciplex subset of sciplex v3](https://figshare.com/articles/dataset/combosciplex/25062230?file=44229635)
+
+Example directory layout after download (relative to repo root):
+```
+scDFM/
+├─ data/
+│  ├─ norman.h5ad
+│  └─ combosciplex.h5ad
+├─ src/
+│  └─ ...
+└─ run.sh
+```
 
 
 
