@@ -63,7 +63,12 @@ bash run.sh
 If you find our work and/or our code useful, please cite us via:
 
 ```bibtex
-comming soon
+@article{yu2026scdfm,
+  title={scDFM: Distributional Flow Matching Model for Robust Single-Cell Perturbation Prediction},
+  author={Yu, Chenglei and Wang, Chuanrui and Liao, Bangyan and Wu, Tailin},
+  journal={arXiv preprint arXiv:2602.07103},
+  year={2026}
+}
 ```
 
 ## 📚 Related Resources
