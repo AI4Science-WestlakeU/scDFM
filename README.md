@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="scDFN logo" width="400" />
 </p>
 
-# scDFM: Distributional Flow Matching for Robust Single-Cell Perturbation Prediction
+# scDFM: Distributional Flow Matching for Robust Single-Cell Perturbation Prediction (ICLR 2026)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2601.01829-b31b1b?logo=arxiv)](https://openreview.net/forum?id=QSGanMEcUV)
 [![Codebase](https://img.shields.io/badge/Codebase-GitHub-181717?logo=github)](https://github.com/AI4Science-WestlakeU/scDFM)
@@ -68,7 +68,12 @@ bash run.sh
 If you find our work and/or our code useful, please cite us via:
 
 ```bibtex
-comming soon
+@article{yu2026scdfm,
+  title={scDFM: Distributional Flow Matching Model for Robust Single-Cell Perturbation Prediction},
+  author={Yu, Chenglei and Wang, Chuanrui and Liao, Bangyan and Wu, Tailin},
+  journal={arXiv preprint arXiv:2602.07103},
+  year={2026}
+}
 ```
 
 ## 📚 Related Resources
