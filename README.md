@@ -35,8 +35,13 @@ conda env create -f environment.yml
 
 Put dataset into data file:
 
-- [Norman](https://figshare.com/articles/dataset/Norman_et_al_2019_Science_labeled_Perturb-seq_data/24688110?utm_source=chatgpt.com&file=43390776)
+- [Norman](https://figshare.com/articles/dataset/Norman_et_al_2019_Science_labeled_Perturb-seq_data/24688110)
 - [Combosciplex subset of sciplex v3](https://figshare.com/articles/dataset/combosciplex/25062230?file=44229635)
+### Alternative Data Access
+
+We also provide the datasets via [Google Drive](https://drive.google.com/drive/folders/1cNpYAt9jVWZN82miNZtkP10YeSo7hufL?usp=sharing). This folder contains:
+- The **Norman** dataset and its corresponding data splits.
+- The **ComboSciPlex** dataset.
 
 Example directory layout after download (relative to repo root):
 ```
