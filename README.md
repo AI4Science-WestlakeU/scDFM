@@ -7,7 +7,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2601.01829-b31b1b?logo=arxiv)](https://openreview.net/forum?id=QSGanMEcUV)
 [![Codebase](https://img.shields.io/badge/Codebase-GitHub-181717?logo=github)](https://github.com/AI4Science-WestlakeU/scDFM)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative&logoColor=white)](LICENSE)
-
+[![YouTube](https://img.shields.io/badge/YouTube-Video-FF0000?logo=youtube&logoColor=white)](https://youtu.be/T4vNEsp7eLs)
+[![Slides](https://img.shields.io/badge/Slides-PDF-EC1C24?logo=adobeacrobatreader&logoColor=white)](assets/scdfm_PPT.pdf)
 
 Official repo for the paper [scDFM](URL), ICLR 2026. <br />
 Chenglei Yu<sup>∗1,2</sup>, [Chuanrui Wang](https://wang-cr.github.io/)<sup>∗1</sup>, Bangyan Liao<sup>∗1,2</sup> & [Tailin Wu](https://tailin.org/)<sup>†1</sup>.<br />
