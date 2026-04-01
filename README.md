@@ -69,11 +69,12 @@ bash run.sh
 If you find our work and/or our code useful, please cite us via:
 
 ```bibtex
-@article{yu2026scdfm,
-  title={scDFM: Distributional Flow Matching Model for Robust Single-Cell Perturbation Prediction},
-  author={Yu, Chenglei and Wang, Chuanrui and Liao, Bangyan and Wu, Tailin},
-  journal={arXiv preprint arXiv:2602.07103},
-  year={2026}
+@inproceedings{yu2026scdfm,
+  title={sc{DFM}: Distributional Flow Matching Model for Robust Single-Cell Perturbation Prediction},
+  author={Chenglei Yu and Chuanrui Wang and Bangyan Liao and Tailin Wu},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=QSGanMEcUV}
 }
 ```
 
