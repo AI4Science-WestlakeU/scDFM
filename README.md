@@ -45,6 +45,12 @@ We also provide the datasets via [Google Drive](https://drive.google.com/drive/f
 - The **Norman** dataset and its corresponding data splits.
 - The **ComboSciPlex** dataset.
 
+### Pretrained checkpoints
+
+We also provide pretrained checkpoints via [Google Drive](https://drive.google.com/file/d/1ObRTXCt5_H3TIC54A6nOCKycltq88BwX/view?usp=drive_link), including:
+- **Norman** checkpoints for two settings.
+- **ComboSciPlex** checkpoints.
+
 Example directory layout after download (relative to repo root):
 ```
 scDFM/
