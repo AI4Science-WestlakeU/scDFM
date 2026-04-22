@@ -12,7 +12,7 @@
 [![Slides](https://img.shields.io/badge/Slides-PDF-EC1C24?logo=adobeacrobatreader&logoColor=white)](assets/scdfm_PPT.pdf)
 
 Official repo for the paper [scDFM](URL), ICLR 2026. <br />
-Chenglei Yu<sup>∗1,2</sup>, [Chuanrui Wang](https://wang-cr.github.io/)<sup>∗1</sup>, Bangyan Liao<sup>∗1,2</sup> & [Tailin Wu](https://tailin.org/)<sup>†1</sup>.<br />
+Chenglei Yu<sup>∗1,2</sup>, [Chuanrui Wang](https://wang-cr.github.io/)<sup>∗1</sup>, Bangyan Liao<sup>1,2</sup> & [Tailin Wu](https://tailin.org/)<sup>†1</sup>.<br />
 
 <sup>1</sup>School of Engineering, Westlake University; 
 <sup>2</sup>Zhejaing University;
